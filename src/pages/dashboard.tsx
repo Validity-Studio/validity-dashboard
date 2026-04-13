@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import { useWallet } from '../hooks/useWallet';
 import { useVault } from '../hooks/useVault';
@@ -5,7 +6,6 @@ import { BalanceCard } from '../components/BalanceCard';
 import { DepositForm } from '../components/DepositForm';
 import { WithdrawForm } from '../components/WithdrawForm';
 import { TransactionHistory } from '../components/TransactionHistory';
-import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 export default function Dashboard() {

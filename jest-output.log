@@ -1,0 +1,612 @@
+ERROR
+
+FAIL tests/pages/dashboard.test.tsx (20.656 s)
+  ● Console
+
+    console.error
+      Error: Uncaught [ReferenceError: React is not defined]
+          at reportException (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+          at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+          at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+          at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+          at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+          at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+          at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+          at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+          at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+          at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+          at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+          at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+          at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25777:74)
+          at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+          at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+          at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+          at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+          at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:11)
+          at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:105:5)
+          at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+          at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+          at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+          at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+          at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+          at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12) {
+        detail: ReferenceError: React is not defined
+            at Dashboard (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\src\pages\dashboard.tsx:20:5)
+            at renderWithHooks (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+            at mountIndeterminateComponent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+            at beginWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+            at HTMLUnknownElement.callCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+            at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+            at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:350:25)
+            at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+            at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+            at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+            at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+            at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+            at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+            at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+            at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+            at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+            at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+            at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25777:74)
+            at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+            at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+            at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+            at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+            at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:11)
+            at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+            at new Promise (<anonymous>)
+            at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+            at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+            at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+            at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+            at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+            at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+            at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+            at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+            at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12),
+        type: 'unhandled exception'
+      }
+
+    [0m [90m 31 |[39m
+     [90m 32 |[39m   it([32m'prompts user to connect wallet initially'[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 33 |[39m     render([33m<[39m[33mDashboard[39m [33m/[39m[33m>[39m)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 34 |[39m     expect(screen[33m.[39mgetByText([32m'Connect Wallet to Continue'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 35 |[39m   })[33m;[39m
+     [90m 36 |[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27490:7)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25777:74)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:33:11)
+
+    console.error
+      Error: Uncaught [ReferenceError: React is not defined]
+          at reportException (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+          at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+          at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+          at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+          at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+          at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+          at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+          at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+          at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+          at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+          at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+          at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+          at recoverFromConcurrentError (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25889:20)
+          at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25789:22)
+          at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+          at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+          at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+          at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+          at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:11)
+          at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:105:5)
+          at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+          at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+          at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+          at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+          at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+          at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12) {
+        detail: ReferenceError: React is not defined
+            at Dashboard (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\src\pages\dashboard.tsx:20:5)
+            at renderWithHooks (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+            at mountIndeterminateComponent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+            at beginWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+            at HTMLUnknownElement.callCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+            at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+            at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:350:25)
+            at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+            at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+            at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+            at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+            at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+            at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+            at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+            at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+            at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+            at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+            at recoverFromConcurrentError (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25889:20)
+            at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25789:22)
+            at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+            at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+            at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+            at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+            at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:11)
+            at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+            at new Promise (<anonymous>)
+            at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+            at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+            at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+            at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+            at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+            at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+            at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+            at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+            at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12),
+        type: 'unhandled exception'
+      }
+
+    [0m [90m 31 |[39m
+     [90m 32 |[39m   it([32m'prompts user to connect wallet initially'[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 33 |[39m     render([33m<[39m[33mDashboard[39m [33m/[39m[33m>[39m)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 34 |[39m     expect(screen[33m.[39mgetByText([32m'Connect Wallet to Continue'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 35 |[39m   })[33m;[39m
+     [90m 36 |[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27490:7)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25889:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25789:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:33:11)
+
+    console.error
+      The above error occurred in the <Dashboard> component:
+      
+          at Dashboard (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\src\pages\dashboard.tsx:13:89)
+      
+      Consider adding an error boundary to your tree to customize error handling behavior.
+      Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+    [0m [90m 31 |[39m
+     [90m 32 |[39m   it([32m'prompts user to connect wallet initially'[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 33 |[39m     render([33m<[39m[33mDashboard[39m [33m/[39m[33m>[39m)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 34 |[39m     expect(screen[33m.[39mgetByText([32m'Connect Wallet to Continue'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 35 |[39m   })[33m;[39m
+     [90m 36 |[39m[0m
+
+      at logCapturedError (node_modules/react-dom/cjs/react-dom.development.js:18704:23)
+      at update.callback (node_modules/react-dom/cjs/react-dom.development.js:18737:5)
+      at callCallback (node_modules/react-dom/cjs/react-dom.development.js:15036:12)
+      at commitUpdateQueue (node_modules/react-dom/cjs/react-dom.development.js:15057:9)
+      at commitLayoutEffectOnFiber (node_modules/react-dom/cjs/react-dom.development.js:23430:13)
+      at commitLayoutMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24727:9)
+      at commitLayoutEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24713:7)
+      at commitLayoutEffects (node_modules/react-dom/cjs/react-dom.development.js:24651:3)
+      at commitRootImpl (node_modules/react-dom/cjs/react-dom.development.js:26862:5)
+      at commitRoot (node_modules/react-dom/cjs/react-dom.development.js:26721:5)
+      at finishConcurrentRender (node_modules/react-dom/cjs/react-dom.development.js:25931:9)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25848:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:33:11)
+
+    console.error
+      Error: Uncaught [ReferenceError: React is not defined]
+          at reportException (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+          at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+          at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+          at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+          at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+          at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+          at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+          at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+          at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+          at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+          at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+          at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+          at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25777:74)
+          at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+          at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+          at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+          at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:50:11
+          at step (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:23)
+          at Object.next (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:14:53)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:8:71
+          at new Promise (<anonymous>)
+          at Object.<anonymous>.__awaiter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:4:12)
+          at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:37:70)
+          at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:105:5)
+          at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+          at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+          at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+          at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+          at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+          at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12) {
+        detail: ReferenceError: React is not defined
+            at Dashboard (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\src\pages\dashboard.tsx:20:5)
+            at renderWithHooks (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+            at mountIndeterminateComponent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+            at beginWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+            at HTMLUnknownElement.callCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+            at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+            at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:350:25)
+            at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+            at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+            at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+            at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+            at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+            at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+            at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+            at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+            at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+            at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+            at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25777:74)
+            at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+            at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+            at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+            at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:50:11
+            at step (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:23)
+            at Object.next (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:14:53)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:8:71
+            at new Promise (<anonymous>)
+            at Object.<anonymous>.__awaiter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:4:12)
+            at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:37:70)
+            at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+            at new Promise (<anonymous>)
+            at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+            at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+            at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+            at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+            at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+            at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+            at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+            at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+            at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12),
+        type: 'unhandled exception'
+      }
+
+    [0m [90m 48 |[39m     [36mconst[39m [33mDashboardConnected[39m [33m=[39m require([32m'../../src/pages/dashboard'[39m)[33m.[39m[36mdefault[39m[33m;[39m
+     [90m 49 |[39m
+    [31m[1m>[22m[39m[90m 50 |[39m     render([33m<[39m[33mDashboardConnected[39m [33m/[39m[33m>[39m)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 51 |[39m
+     [90m 52 |[39m     [90m// Check Balance Card[39m
+     [90m 53 |[39m     expect(screen[33m.[39mgetByText([32m'Vault Balance'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27490:7)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25777:74)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at tests/pages/dashboard.test.tsx:50:11
+      at step (tests/pages/dashboard.test.tsx:33:23)
+      at Object.next (tests/pages/dashboard.test.tsx:14:53)
+      at tests/pages/dashboard.test.tsx:8:71
+      at Object.<anonymous>.__awaiter (tests/pages/dashboard.test.tsx:4:12)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:37:70)
+
+    console.error
+      Error: Uncaught [ReferenceError: React is not defined]
+          at reportException (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+          at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+          at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+          at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+          at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+          at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+          at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+          at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+          at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+          at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+          at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+          at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+          at recoverFromConcurrentError (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25889:20)
+          at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25789:22)
+          at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+          at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+          at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+          at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:50:11
+          at step (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:23)
+          at Object.next (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:14:53)
+          at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:8:71
+          at new Promise (<anonymous>)
+          at Object.<anonymous>.__awaiter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:4:12)
+          at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:37:70)
+          at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:105:5)
+          at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+          at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+          at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+          at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+          at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+          at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12) {
+        detail: ReferenceError: React is not defined
+            at Dashboard (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\src\pages\dashboard.tsx:20:5)
+            at renderWithHooks (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+            at mountIndeterminateComponent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+            at beginWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+            at HTMLUnknownElement.callCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+            at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+            at innerInvokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:350:25)
+            at invokeEventListeners (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+            at HTMLUnknownElementImpl._dispatch (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+            at HTMLUnknownElementImpl.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+            at HTMLUnknownElement.dispatchEvent (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+            at Object.invokeGuardedCallbackDev (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+            at invokeGuardedCallback (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+            at beginWork$1 (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+            at performUnitOfWork (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26599:12)
+            at workLoopSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26505:5)
+            at renderRootSync (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:26473:7)
+            at recoverFromConcurrentError (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25889:20)
+            at performConcurrentWorkOnRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react-dom\cjs\react-dom.development.js:25789:22)
+            at flushActQueue (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2667:24)
+            at act (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\react\cjs\react.development.js:2582:11)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\act-compat.js:47:25
+            at renderRoot (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:180:26)
+            at render (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\@testing-library\react\dist\pure.js:271:10)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:50:11
+            at step (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:33:23)
+            at Object.next (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:14:53)
+            at C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:8:71
+            at new Promise (<anonymous>)
+            at Object.<anonymous>.__awaiter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:4:12)
+            at Object.<anonymous> (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\tests\pages\dashboard.test.tsx:37:70)
+            at Promise.then.completed (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:298:28)
+            at new Promise (<anonymous>)
+            at callAsyncCircusFn (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\utils.js:231:10)
+            at _callCircusTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:316:40)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+            at _runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:252:3)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:126:9)
+            at _runTestsForDescribeBlock (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:121:9)
+            at run (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\run.js:71:3)
+            at runAndTransformResultsToJestFormat (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+            at jestAdapter (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+            at runTestInternal (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:367:16)
+            at runTest (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\runTest.js:444:34)
+            at Object.worker (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\node_modules\jest-runner\build\testWorker.js:106:12),
+        type: 'unhandled exception'
+      }
+
+    [0m [90m 48 |[39m     [36mconst[39m [33mDashboardConnected[39m [33m=[39m require([32m'../../src/pages/dashboard'[39m)[33m.[39m[36mdefault[39m[33m;[39m
+     [90m 49 |[39m
+    [31m[1m>[22m[39m[90m 50 |[39m     render([33m<[39m[33mDashboardConnected[39m [33m/[39m[33m>[39m)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 51 |[39m
+     [90m 52 |[39m     [90m// Check Balance Card[39m
+     [90m 53 |[39m     expect(screen[33m.[39mgetByText([32m'Vault Balance'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27490:7)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25889:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25789:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at tests/pages/dashboard.test.tsx:50:11
+      at step (tests/pages/dashboard.test.tsx:33:23)
+      at Object.next (tests/pages/dashboard.test.tsx:14:53)
+      at tests/pages/dashboard.test.tsx:8:71
+      at Object.<anonymous>.__awaiter (tests/pages/dashboard.test.tsx:4:12)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:37:70)
+
+    console.error
+      The above error occurred in the <Dashboard> component:
+      
+          at Dashboard (C:\Users\useer\OneDrive\Desktop\Stellar\Validity Studio\validity-dashboard\src\pages\dashboard.tsx:13:89)
+      
+      Consider adding an error boundary to your tree to customize error handling behavior.
+      Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+    [0m [90m 48 |[39m     [36mconst[39m [33mDashboardConnected[39m [33m=[39m require([32m'../../src/pages/dashboard'[39m)[33m.[39m[36mdefault[39m[33m;[39m
+     [90m 49 |[39m
+    [31m[1m>[22m[39m[90m 50 |[39m     render([33m<[39m[33mDashboardConnected[39m [33m/[39m[33m>[39m)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 51 |[39m
+     [90m 52 |[39m     [90m// Check Balance Card[39m
+     [90m 53 |[39m     expect(screen[33m.[39mgetByText([32m'Vault Balance'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at logCapturedError (node_modules/react-dom/cjs/react-dom.development.js:18704:23)
+      at update.callback (node_modules/react-dom/cjs/react-dom.development.js:18737:5)
+      at callCallback (node_modules/react-dom/cjs/react-dom.development.js:15036:12)
+      at commitUpdateQueue (node_modules/react-dom/cjs/react-dom.development.js:15057:9)
+      at commitLayoutEffectOnFiber (node_modules/react-dom/cjs/react-dom.development.js:23430:13)
+      at commitLayoutMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24727:9)
+      at commitLayoutEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24713:7)
+      at commitLayoutEffects (node_modules/react-dom/cjs/react-dom.development.js:24651:3)
+      at commitRootImpl (node_modules/react-dom/cjs/react-dom.development.js:26862:5)
+      at commitRoot (node_modules/react-dom/cjs/react-dom.development.js:26721:5)
+      at finishConcurrentRender (node_modules/react-dom/cjs/react-dom.development.js:25931:9)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25848:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at tests/pages/dashboard.test.tsx:50:11
+      at step (tests/pages/dashboard.test.tsx:33:23)
+      at Object.next (tests/pages/dashboard.test.tsx:14:53)
+      at tests/pages/dashboard.test.tsx:8:71
+      at Object.<anonymous>.__awaiter (tests/pages/dashboard.test.tsx:4:12)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:37:70)
+
+  ● Dashboard Integration / Workflow Test › prompts user to connect wallet initially
+
+    ReferenceError: React is not defined
+
+    [0m [90m 18 |[39m
+     [90m 19 |[39m   [36mif[39m ([33m![39maddress) {
+    [31m[1m>[22m[39m[90m 20 |[39m     [36mreturn[39m (
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 21 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex flex-col items-center justify-center min-h-[50vh] text-center"[39m[33m>[39m
+     [90m 22 |[39m         [33m<[39m[33mh2[39m className[33m=[39m[32m"text-2xl font-bold text-gray-900 mb-4"[39m[33m>[39m[33mConnect[39m [33mWallet[39m to [33mContinue[39m[33m<[39m[33m/[39m[33mh2[39m[33m>[39m
+     [90m 23 |[39m         [33m<[39m[33mp[39m className[33m=[39m[32m"text-gray-500 mb-8"[39m[33m>[39m[33mPlease[39m connect your [33mStellar[39m wallet to access the dashboard[33m.[39m[33m<[39m[33m/[39m[33mp[39m[33m>[39m[0m
+
+      at Dashboard (src/pages/dashboard.tsx:20:5)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27465:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25889:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25789:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:33:11)
+
+  ● Dashboard Integration / Workflow Test › renders dashboard when connected and allows deposit workflow
+
+    ReferenceError: React is not defined
+
+    [0m [90m 18 |[39m
+     [90m 19 |[39m   [36mif[39m ([33m![39maddress) {
+    [31m[1m>[22m[39m[90m 20 |[39m     [36mreturn[39m (
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 21 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex flex-col items-center justify-center min-h-[50vh] text-center"[39m[33m>[39m
+     [90m 22 |[39m         [33m<[39m[33mh2[39m className[33m=[39m[32m"text-2xl font-bold text-gray-900 mb-4"[39m[33m>[39m[33mConnect[39m [33mWallet[39m to [33mContinue[39m[33m<[39m[33m/[39m[33mh2[39m[33m>[39m
+     [90m 23 |[39m         [33m<[39m[33mp[39m className[33m=[39m[32m"text-gray-500 mb-8"[39m[33m>[39m[33mPlease[39m connect your [33mStellar[39m wallet to access the dashboard[33m.[39m[33m<[39m[33m/[39m[33mp[39m[33m>[39m[0m
+
+      at Dashboard (src/pages/dashboard.tsx:20:5)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27465:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25889:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25789:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:47:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:180:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:271:10)
+      at tests/pages/dashboard.test.tsx:50:11
+      at step (tests/pages/dashboard.test.tsx:33:23)
+      at Object.next (tests/pages/dashboard.test.tsx:14:53)
+      at tests/pages/dashboard.test.tsx:8:71
+      at Object.<anonymous>.__awaiter (tests/pages/dashboard.test.tsx:4:12)
+      at Object.<anonymous> (tests/pages/dashboard.test.tsx:37:70)
+
+PASS tests/components/TransactionHistory.test.tsx (22.908 s)
+PASS tests/components/WithdrawForm.test.tsx (22.479 s)
+PASS tests/hooks/useWallet.test.ts (22.893 s)
+PASS tests/components/BalanceCard.test.tsx (23.57 s)
+PASS tests/components/DepositForm.test.tsx (23.544 s)
+PASS tests/hooks/useVault.test.ts (29.9 s)
+  ● Console
+
+    console.log
+      Depositing 50000000 tokens from GBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      at src/hooks/useVault.ts:49:15
+
+    console.log
+      Withdrawing 20000000 tokens to GBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      at src/hooks/useVault.ts:73:15
+
+    console.log
+      Claiming rewards for GBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      at src/hooks/useVault.ts:95:15
+
+
+Test Suites: 1 failed, 6 passed, 7 total
+Tests:       2 failed, 19 passed, 21 total
+Snapshots:   0 total
+Time:        52.328 s
+Ran all test suites.

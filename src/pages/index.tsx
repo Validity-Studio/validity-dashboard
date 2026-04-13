@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Validity Dashboard - Stellar Smart Contracts</title>
         <meta name="description" content="Interact with Validity smart contracts on the Stellar network." />
-      </head>
+      </Head>
 
       <div className="max-w-3xl space-y-8">
         <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">
