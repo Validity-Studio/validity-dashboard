@@ -1,5 +1,5 @@
 import React from 'react';
-import { useWallet } from '../hooks/useWallet';
+import { useWallet } from '../../hooks/useWallet';
 import { Wallet, LogOut } from 'lucide-react';
 import Link from 'next/link';
 

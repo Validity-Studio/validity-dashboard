@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
-import { getVaultContract, getNetworkConfig, VAULT_CONTRACT_ID } from '../utils/contractHelpers';
+import { getVaultContract, VAULT_CONTRACT_ID } from '../services/stellar/contractHelpers';
+import { getNetworkConfig } from '../services/stellar/networkConfig';
 import { useWallet } from './useWallet';
 
 // Mock Axionvera SDK for the dashboard interaction

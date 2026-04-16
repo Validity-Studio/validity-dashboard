@@ -1,6 +1,6 @@
 import React from 'react';
-import { TransactionRecord } from '../hooks/useVault';
-import { formatBalance } from '../utils/contractHelpers';
+import { TransactionRecord } from '../../hooks/useVault';
+import { formatBalance } from '../../services/stellar/contractHelpers';
 import { ArrowDownLeft, ArrowUpRight, Gift } from 'lucide-react';
 
 interface TransactionHistoryProps {

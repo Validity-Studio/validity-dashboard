@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { BalanceCard } from '../../src/components/BalanceCard';
+import { BalanceCard } from '../../src/components/dashboard/BalanceCard';
 
 describe('BalanceCard Component', () => {
   it('renders correctly with given balance', () => {

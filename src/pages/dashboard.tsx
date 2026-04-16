@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import Head from 'next/head';
 import { useWallet } from '../hooks/useWallet';
 import { useVault } from '../hooks/useVault';
-import { BalanceCard } from '../components/BalanceCard';
-import { DepositForm } from '../components/DepositForm';
-import { WithdrawForm } from '../components/WithdrawForm';
-import { TransactionHistory } from '../components/TransactionHistory';
+import { BalanceCard } from '../components/dashboard/BalanceCard';
+import { DepositForm } from '../components/dashboard/DepositForm';
+import { WithdrawForm } from '../components/dashboard/WithdrawForm';
+import { TransactionHistory } from '../components/dashboard/TransactionHistory';
 import { useRouter } from 'next/router';
 
 export default function Dashboard() {

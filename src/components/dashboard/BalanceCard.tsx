@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatBalance } from '../utils/contractHelpers';
+import { formatBalance } from '../../services/stellar/contractHelpers';
 
 interface BalanceCardProps {
   balance: string;
